@@ -1,7 +1,7 @@
 # **README**
 
 ## **Introduction**
-Playwright for Python was created specifically to accommodate the needs of end-to-end testing. The Playwright library can be used as a general purpose browser automation tool, providing a powerful set of APIs to automate web applications
+The repository contains playwright(python) tests that automates the below given test scenarios and the installation steps
 
 **Minimum System requirements**
   > Python 3.8 or higher.
@@ -20,14 +20,10 @@ python --version
 pip list
 ```
 **Note**
+```
   If any issues observed during playwright install command, follow the below steps
   Manually download the file from this url [https://playwright.azureedge.net/builds/chromium/1117/chromium-win64.zip]
-  
-Execute the below commands on the correct installable folder
-```
-set PLAYWRIGHT_DOWNLOAD_HOST=http://192.0.2.1
-pip install playwright
-playwright install
+  extract and keep it in the folderpath like this AppData/local/ms-playwright/chromium-1117/
 ```
 ### **Test Scenario**
 **Test 1:-Create an app – attach APPI – verify details after creating app – delete app**
