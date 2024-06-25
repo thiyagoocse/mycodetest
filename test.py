@@ -140,3 +140,4 @@ with sync_playwright() as playwright:
     api_explorer = browse_app(login_page)
     api_explorer = topmenu_navigation(login_page)
     api_explorer = bottommenu_navigation(login_page)
+    browser.close()
