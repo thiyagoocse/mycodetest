@@ -6,7 +6,7 @@ import time
 
 load_dotenv()
 url=os.getenv("URL")
-username = os.getenv("USERNAME")
+username = os.getenv("USER_NAME")
 password = os.getenv("PASSWORD")
 
 # Function for Application Login
