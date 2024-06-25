@@ -31,8 +31,12 @@ pip list
   extract and keep it in the folderpath like this AppData/local/ms-playwright/chromium-1117/
 
 **Secure way of handling Url, username & password** 
+```
 create .env file and store the following details like url, username, password in secure way
-
+URL="https://testurl.no/"
+USER_NAME="testuser@email.com"
+PASSWORD="your_password"
+```
 ### **Test Scenario**
 **Test 1:-Create an app – attach APPI – verify details after creating app – delete app**
 ```
