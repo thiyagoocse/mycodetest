@@ -12,6 +12,7 @@ The repository contains playwright tests that automates the below given test sce
 pip install --upgrade pip
 pip install playwright
 playwright install
+pip install python-dotenv
 ```
 **After the installation**
 Please execute the below commands to check the Python, Playwright, dotenv installations
