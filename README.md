@@ -37,7 +37,7 @@ playwright install
   Create the New application by selecting the existing API.
   Verify the details in newly created API.
   Delete the APP.
-  Logout & Close the broswer.
+  Logout & Close the browser.
 ```
 **Test 2:Verify navigation to API explorer from diff parts of application and verify the list of APIs displayed as expected including list under different categories**
 ```
@@ -46,5 +46,5 @@ playwright install
   Navigate through Browse API -> Verify the list of APIs present in each categories.
   Navigate through API Explorer in the Top menu -> Verify the list of APIs present in each categories.
   Navigate through API Explorer in the bottom menu -> Verify the list of APIs present in each categories.
-  Logout & Close the broswer.
+  Logout & Close the browser.
 ```
