@@ -20,15 +20,14 @@ playwright install
 pip install python-dotenv
 ```
 **After the installation**
-Please execute the below commands to check the Python, Playwright, dotenv installations
+> Please execute the below commands to check the Python, Playwright, dotenv installations
 ```
 python --version
 pip list
 ```
 **Note**
   If any issues observed during playwright install command, follow the below steps
-  Manually download the file from this url [https://playwright.azureedge.net/builds/chromium/1117/chromium-win64.zip]
-  extract and keep it in the folderpath like this AppData/local/ms-playwright/chromium-1117/
+  Manually download the file from this url [https://playwright.azureedge.net/builds/chromium/1117/chromium-win64.zip] extract and keep it in the folderpath like this AppData/local/ms-playwright/chromium-1117/
 
 **Secure way of handling Url, username & password** 
 ```
