@@ -6,7 +6,7 @@ import time
 
 load_dotenv()
 url=os.getenv("URL")
-email = os.getenv("EMAIL")
+username = os.getenv("USERNAME")
 password = os.getenv("PASSWORD")
 
 # Function for Application Login
@@ -20,7 +20,7 @@ def login_developer_portal(playwright: Playwright):
     page.locator("//a[text()=\"OK\"]").click()
     # click login button
     page.locator('//a[@href="/login"]').click()
-    page.locator('//*[text()="Email address"]/parent::span//input').type(email)
+    page.locator('//*[text()="Email address"]/parent::span//input').type(username)
     page.locator('//*[text()="Password"]/ancestor::label/parent::div//input').type(password)
     page.locator('//*[text()="Log in"]/parent::button').click()
     page.wait_for_selector('//*[text()="Log out"]/parent::button',state="visible")
