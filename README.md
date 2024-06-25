@@ -1,7 +1,7 @@
 # **README**
 
 ## **Introduction**
-The repository contains playwright(python) tests that automates the below given test scenarios and the installation steps
+The repository contains playwright tests that automates the below given test scenarios and the installation steps.
 
 **Minimum System requirements**
   > Python 3.8 or higher.
@@ -20,11 +20,10 @@ python --version
 pip list
 ```
 **Note**
-```
   If any issues observed during playwright install command, follow the below steps
   Manually download the file from this url [https://playwright.azureedge.net/builds/chromium/1117/chromium-win64.zip]
   extract and keep it in the folderpath like this AppData/local/ms-playwright/chromium-1117/
-```
+
 ### **Test Scenario**
 **Test 1:-Create an app – attach APPI – verify details after creating app – delete app**
 ```
